@@ -114,7 +114,7 @@ body {
   height: 50%;
   transform: translatex(-50%) rotate(calc(var(--rotation) * 1deg));
   background-color: black;
-  border: 2px blanchedalmond solid;
+  border: 2px white solid;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   z-index: 10;
@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 15px;
   height: 15px;
-  z-index: 11;
+  z-index: 13;
   background-color: black;
   top: 50%;
   left: 50%;
@@ -136,12 +136,13 @@ body {
 .clock .hand.second {
   width: 5px;
   height: 42%;
-  z-index: 11;
+  z-index: 12;
   background-color: red;
 }
 .clock .hand.minute {
   width: 7px;
   height: 35%;
+  z-index: 11;
   background-color: black;
 }
 .clock .hand.hour {
